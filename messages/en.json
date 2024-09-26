@@ -4,6 +4,7 @@
     "th": "TH"
   },
   "HomePage": {
+    "title": "Home",
     "test-1": {
       "title": "Test 1",
       "desc": "Layout & Style"
@@ -21,6 +22,64 @@
     "label": {
       "prev-next": "Move Shape",
       "switch-positions": "Move Position"
+    }
+  },
+  "Test-3": {
+    "label": {
+      "title": "Title",
+      "fname": "Firstmame",
+      "lname": "Lastname",
+      "birthday": "Birthday",
+      "birthday-placeholder": "mm//dd//yy",
+      "nationality": "Nationality",
+      "nationality-placeholder": "-- Please Select --",
+      "citizen-id": "CitizenID",
+      "gender": "Gender",
+      "mobile": "Mobile Phone",
+      "passport-no": "Passport No.",
+      "expected-salary": "Expected Salary"
+    },
+    "table": {
+      "head": {
+        "name": "Name",
+        "gender": "Gender",
+        "mobile": "Mobile Phone",
+        "nationality": "Nationality",
+        "manage": "MANAGE"
+      },
+      "controller": {
+        "select-all": "Select All",
+        "delete-btn": "DELETE",
+        "prev": "PREV",
+        "next": "NEXT",
+        "edit-btn": "EDIT"
+      }
+    },
+    "form": {
+      "reset": "RESET",
+      "submit": "SUBMIT"
+    },
+    "data": {
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "unisex": "Usnisex"
+      },
+      "nationality": {
+        "th": "Thai",
+        "fr": "French",
+        "us": "American"
+      }
+    },
+    "error": {
+      "title": "Title is required.",
+      "fname": "Firstmame is required.",
+      "lname": "Lastname is required.",
+      "birthday": "Birthday is required.",
+      "nationality": "Nationality is required.",
+      "gender": "Gender is required.",
+      "mobile": "Mobile Phone is required.",
+      "expected-salary": "Expected Salary is required."
     }
   }
 }
