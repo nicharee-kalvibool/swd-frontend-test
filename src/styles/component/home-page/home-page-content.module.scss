@@ -1,0 +1,17 @@
+.homePageContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #6eda78, #ffa200);
+
+  .cardContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.25rem;
+    flex: 1;
+  }
+}

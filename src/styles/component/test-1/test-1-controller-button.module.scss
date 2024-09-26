@@ -1,0 +1,92 @@
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  min-width: 250px;
+  max-width: 100%;
+
+  .label {
+    position: absolute;
+    bottom: -0.75rem;
+    background-color: #6eda78;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+  }
+}
+
+.triangleUp {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ddd;
+}
+
+.triangleDown {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #ddd;
+}
+
+.triangleLeft {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #ddd;
+  border-bottom: 50px solid transparent;
+}
+
+.triangleRight {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #ddd;
+  border-bottom: 50px solid transparent;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #ddd;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 200px;
+  height: 100px;
+  background: #ddd;
+  border-radius: 100px / 50px;
+}
+
+.trapezoid {
+  border-bottom: 100px solid #ddd;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 200px;
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background: #ddd;
+}
+
+.parallelogram {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background: #ddd;
+}
